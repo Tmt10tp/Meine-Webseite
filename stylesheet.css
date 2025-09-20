@@ -1,6 +1,30 @@
-header{
+*{
+    margin:0px;
+    padding:0px;
+}
+nav{
     background-color: black;
-    height: 200%;
+    padding: 1rem;
+}
+nav ul{
+    list-style-type:none;
+    margin: 0px;
+    padding:0px;
+    display:flex;
+    justify-content: space-around;
+}
+nav ul li{
+    display: inline;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    display: block;
+}
+nav ul li a:hover {
+    background-color: space;
+    border-radius: 5px;
 }
 h1{
     color:#7F1734;
