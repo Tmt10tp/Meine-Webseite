@@ -23,9 +23,10 @@ nav ul li a {
     display: block;
 }
 nav ul li a:hover {
-    background-color: space;
+    background-color: blue;
     border-radius: 5px;
 }
+
 
 
 
